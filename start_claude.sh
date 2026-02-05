@@ -22,7 +22,7 @@ if ! command -v claude &> /dev/null; then
     first_run=true
 else
     echo "Claude已安装"
-fi
+fi
 # 启动claude
 echo "启动Claude..."
 if $first_run; then
